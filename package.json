@@ -1,6 +1,12 @@
 {
+  "name": "prebtc",
+  "version": "1.0.0",
   "type": "module",
+  "main": "mainfinal.js",
   "scripts": {
     "start": "node mainfinal.js"
+  },
+  "dependencies": {
+    "telegraf": "^4.16.3"
   }
 }
