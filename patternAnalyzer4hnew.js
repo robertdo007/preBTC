@@ -1,4 +1,4 @@
-const BASE_URL = "https://api.binance.com/api/v3/klines";
+const BASE_URL = "https://data-api.binance.vision/api/v3/klines";
 const SYMBOL = "BTCUSDT";
 const INTERVAL = "4h";
 
