@@ -27,7 +27,7 @@ function buildStats(matchList) {
  *                                  lấy từ getPatternData1h(a).trend
  */
 export function analyzePattern1h(patternArray, liveTrend = null) {
-  const inputFile = "btc_60m_analysis.csv";
+  const inputFile = "btc_1h_analysis.csv";
 
   if (!fs.existsSync(inputFile)) {
     return { error: "Không tìm thấy file dữ liệu btc_60m_analysis.csv" };
